@@ -6,6 +6,9 @@ spring:
   cloud:
     discovery:
       enabled: true
+    circuitbreaker:
+      hystrix:
+        enabled: false
 eureka:
   instance:
     prefer-ip-address: true
